@@ -1,5 +1,5 @@
 # travel-agency-db
-Task for Relational DB
+Task for Relational DB - Travel Agency
 
 ## Objectives
 The database allows a travel agency to:
