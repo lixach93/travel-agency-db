@@ -119,3 +119,10 @@ CREATE TABLE booking_excursions (
                                         REFERENCES excursions (excursion_id)
                                         ON DELETE RESTRICT
 );
+
+
+--index
+CREATE INDEX idx_bookings_customer_id ON bookings (customer_id);
+CREATE INDEX idx_tour_hotels_hotel_id ON tour_hotels (hotel_id);
+CREATE INDEX idx_guides_partner_id ON guides (partner_id);
+CREATE INDEX idx_tours_partner_id ON tours (partner_id);
